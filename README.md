@@ -29,11 +29,14 @@ python steganography_gui.py
 ```
 
 ## 🚀 Quick Start
+**Test images available!** Few sample images are provided in the `images/` folder to test the tool immediately.
+
 1. Click "Open Image" to load your PNG/JPG file
 2. Encode: Enter message → Click "Encode Message" (saves as stego_image.png)
 3. Decode: Load any steganographic image → Click "Decode Message"
 4. Use "Clear All" to reset
 
+![Screenshot of the tool.](/images/steganography_tool.png "Tool Screenshot")
 ## 💡 How It Works
 LSB Steganography replaces the least significant bits of image pixels with message bits:
 ```
